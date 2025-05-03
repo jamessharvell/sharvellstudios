@@ -186,3 +186,63 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sharvell Studios</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<header id="header">
+				<div class="logo">
+					<span class="icon fa-gem"></span>
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Sharvell Studios</h1>
+						<p>A creative portfolio website styled with the Dimension template.</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div id="main">
+				<article id="intro">
+					<h2 class="major">Intro</h2>
+					<span class="image main"><img src="assets/images/pic01.jpg" alt="" /></span>
+					<p>This is a sample intro section using the Dimension template.</p>
+				</article>
+
+				<article id="work">
+					<h2 class="major">Work</h2>
+					<span class="image main"><img src="assets/images/pic02.jpg" alt="" /></span>
+					<p>Here is where your portfolio or showcase would go.</p>
+				</article>
+
+				<article id="about">
+					<h2 class="major">About</h2>
+					<span class="image main"><img src="assets/images/pic03.jpg" alt="" /></span>
+					<p>A little about yourself or your studio goes here.</p>
+				</article>
+			</div>
+
+			<footer id="footer">
+				<p>&copy; Sharvell Studios. Template from <a href="https://html5up.net">HTML5 UP</a>.</p>
+			</footer>
+		</div>
+
+		<div id="bg"></div>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
