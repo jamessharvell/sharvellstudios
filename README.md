@@ -1,145 +1,113 @@
 # sharvellstudios
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sharvell Studios</title>
-  <style>
-    /* Reset and base styles */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      color: #f4f4f4;
-      background: #0e0e0e url('https://images.unsplash.com/photo-1601621031328-c2f26e7e017b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
-      background-size: cover;
-      scroll-behavior: smooth;
-    }
-
-    header, section, footer {
-      padding: 4rem 2rem;
-      text-align: center;
-      background: rgba(0,0,0,0.7);
-    }
-
-    header {
-      padding-top: 6rem;
-    }
-
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      max-width: 700px;
-      margin: 0 auto 1.5rem;
-      line-height: 1.6;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2rem;
-      padding: 0;
-    }
-
-    nav a {
-      color: #00c6ff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #ffffff;
-    }
-
-    .section-title {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      margin: 2rem 0;
-      border-radius: 10px;
-    }
-
-    footer {
-      font-size: 0.9rem;
-      padding: 2rem;
-    }
-
-    /* Button style */
-    .button {
-      background: #00c6ff;
-      color: #0e0e0e;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .button:hover {
-      background: #0094cc;
-      color: white;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
+<body class="is-preload">
 
-  <!-- Header -->
-  <header id="home">
-    <h1>Sharvell Studios 🎬</h1>
-    <p>Crafting Cinematic Experiences & Creative Visual Storytelling</p>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-  <!-- About Section -->
-  <section id="about">
-    <h2 class="section-title">About Us</h2>
-    <p>Sharvell Studios is a visionary film production house focused on narrative-driven visual storytelling. We produce cinematic content for film, television, and branded media with a distinct artistic flair.</p>
-    <img src="https://images.unsplash.com/photo-1515165562835-cbdf432f4f79?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="About Sharvell Studios" />
-  </section>
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+        <span class="icon fa-gem"></span>
+      </div>
+      <div class="content">
+        <div class="inner">
+          <h1>Sharvell Studios</h1>
+          <p>Crafting Cinematic Experiences & Creative Visual Storytelling</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2 class="section-title">Projects</h2>
-    <p>Here are some of our featured productions and collaborations.</p>
-    <img src="https://images.unsplash.com/photo-1611691541759-8cfbafbd951b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="Project Still" />
-    <img src="https://images.unsplash.com/photo-1558992796-c1e748ea1ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="Behind the Scenes" />
-  </section>
+    <!-- Main -->
+    <div id="main">
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2 class="section-title">Contact</h2>
-    <p>Interested in collaborating or learning more? Get in touch with us.</p>
-    <a class="button" href="mailto:info@sharvellstudios.com">Email Us</a>
-  </section>
+      <!-- Intro -->
+      <article id="intro">
+        <h2 class="major">Intro</h2>
+        <span class="image main"><img src="assets/images/pic01.jpg" alt="" /></span>
+        <p>Welcome to Sharvell Studios, where we specialize in crafting cinematic experiences and creative visual storytelling. Our passion lies in bringing stories to life through film and media.</p>
+      </article>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 Sharvell Studios. Design inspired by HTML5 UP's Dimension.
-  </footer>
+      <!-- Work -->
+      <article id="work">
+        <h2 class="major">Work</h2>
+        <span class="image main"><img src="assets/images/pic02.jpg" alt="" /></span>
+        <p>Our portfolio showcases a range of projects, from short films to commercial productions. Each piece reflects our commitment to quality and storytelling excellence.</p>
+      </article>
+
+      <!-- About -->
+      <article id="about">
+        <h2 class="major">About</h2>
+        <span class="image main"><img src="assets/images/pic03.jpg" alt="" /></span>
+        <p>Sharvell Studios is a visionary film production house focused on narrative-driven visual storytelling. We produce cinematic content for film, television, and branded media with a distinct artistic flair.</p>
+      </article>
+
+      <!-- Contact -->
+      <article id="contact">
+        <h2 class="major">Contact</h2>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="field half">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Send Message" class="primary" /></li>
+            <li><input type="reset" value="Reset" /></li>
+          </ul>
+        </form>
+        <ul class="icons">
+          <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+      </article>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>&copy; Sharvell Studios. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+  </div>
+
+  <!-- BG -->
+  <div id="bg"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
